@@ -26,13 +26,6 @@ from PURVIMUSIC.utils.inline import help_pannel, private_panel, start_panel
 from config import BANNED_USERS
 from strings import get_string
 
-#--------------------------
-
-NEXI_VID = [
-"https://files.catbox.moe/4fb1ab.jpg",
-
-    
-]
 
 @app.on_message(filters.command(["start"]) & filters.private & ~BANNED_USERS)
 @LanguageStart
